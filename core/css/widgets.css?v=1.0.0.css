@@ -1,0 +1,243 @@
+
+/* 
+  Widgets
+  Copyright (c) 2012 Ernesto Mendez
+ */
+
+.widget { min-height: 50px }
+
+.widget ul li { margin-top: 0.5em }
+
+.widget ul li:first-child { margin-top: 0 !important }
+
+/* Latest Posts Widget/Component */
+
+.latest-posts-component ul {
+  margin: 0;
+  padding: 0;
+}
+
+.latest-posts-component ul li {
+  position: relative;
+  margin: 0;
+  padding: 24px 0 0 0;
+  list-style: none;
+}
+
+.latest-posts-component ul li:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  clear: both !important;
+  visibility: hidden;
+  overflow: hidden;
+}
+
+.latest-posts-component ul li:first-child {
+  padding-top: 0 !important;
+  background: none !important;
+}
+
+.latest-posts-component ul li a.bordered {
+  float: left;
+  margin-right: 12px;
+}
+
+.latest-posts-component ul li aside {
+  overflow: hidden;
+}
+
+.latest-posts-component ul li aside a.title { font-weight: 600 }
+
+.latest-posts-component ul li aside small.desc {
+  color: #898989;
+  display: block;
+  font-size: 91.67% !important;
+  line-height: 1.6em;
+}
+
+.latest-posts-component ul li.with-excerpt aside { padding-top: 0 }
+
+.latest-posts-component ul li a.bordered {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  border-color: #f2f3f1;
+  position: relative;
+}
+
+.latest-posts-component.hover-enabled ul li a.bordered:after {
+  position: absolute;
+  display: block;
+  content: "\020";
+  width: 100%;
+  height: 100%;
+  background: #f74b00;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.latest-posts-component ul li a.bordered:hover {
+  border-color: #898989;
+  -webkit-box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.1);
+}
+
+.latest-posts-component ul li a.bordered:hover:after { opacity: 0.2 }
+
+.recentcomments a {
+  display: inline !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.widget ul.checks { margin: 0 }
+
+.widget ul.checks li { padding-left: 23px }
+
+.widget.widget_recent_comments ul li a { margin-left: 4px }
+
+.widget.widget_search form {
+  margin: 0;
+  padding: 0;
+}
+
+.widget.widget_search form p {
+  margin: 0;
+  padding: 0;
+}
+
+.widget.widget_search form input[type=text] {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0;
+  font-weight: 300;
+  background-image: url(../images/search-icon-lite.png);
+  background-position: 12px 50%;
+  background-repeat: no-repeat;
+  padding: 11px 5px 11px 40px;
+  line-height: 1.4em;
+}
+
+.widget.widget_categories > ul {
+  margin: 0;
+  padding: 0;
+}
+
+.widget.widget_categories ul li { list-style: none }
+
+.widget.widget_categories ul li a {
+  display: inline-block;
+  padding-left: 23px;
+  background: 1px 50% no-repeat;
+}
+
+.widget.widget_categories ul li ul { padding: 5px 0 0 10px }
+
+.widget.widget_calendar table th,
+.widget.widget_calendar table td { text-align: center }
+
+.widget.widget_calendar table td a { font-weight: bold }
+
+/* Footer Widgets */
+
+footer .widget > *:last-child { margin-bottom: 0 !important }
+
+footer .widget > h3:first-child {
+  margin: 0;
+  padding-bottom: 0.6em;
+  margin-bottom: 1.3em;
+  background: url(../images/footer-sep.png) bottom center repeat-x;
+}
+
+footer .widget > h3:first-child + * { margin-top: 0 !important }
+
+footer .widget.latest-posts-component ul li:before {
+  display: block;
+  position: relative;
+  content: "\0020";
+  width: 100%;
+  height: 2px;
+  top: -12px;
+  background: url(../images/footer-sep.png) center repeat-x;
+  opacity: 0.5;
+}
+
+footer .widget.latest-posts-component ul li:first-child { background: none !important }
+
+footer .widget.latest-posts-component ul li:first-child:before { display: none }
+
+footer .widget.latest-posts-component ul li a.bordered {
+  border-color: #393939;
+  outline: none;
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+footer .widget.latest-posts-component ul li a.bordered:hover {
+  border-color: #464646;
+  -webkit-box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.5);
+  -o-box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.5);
+  box-shadow: 1px 3px 12px rgba(0, 0, 0, 0.5);
+}
+
+footer .widget.widget_recent_entries ul li { background-image: url(../images/recent-posts-footer.png) }
+
+footer .widget.widget_recent_comments ul li { background-image: url(../images/recent-comments-footer.png) }
+
+footer .widget.widget_categories ul li a { background-image: url(../images/categories-icon-dark.png) }
+
+/* Sidebar Widgets */
+
+.sidebar .widget {
+  margin-top: 40px;
+  line-height: 1.8em;
+  color: #898a89;
+}
+
+.sidebar .widget a {
+  color: #515251;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.sidebar .widget a:hover { color: #f74c02 }
+
+.sidebar .widget > h3.title:first-child {
+  font-weight: 300;
+  font-size: 150.00% !important;
+  margin: 0 0 18px 0;
+  color: #484748;
+  line-height: 1.3em;
+  border-bottom: solid 1px #e6e7e6;
+  padding-bottom: 8px;
+}
+
+.sidebar .widget > h3.title:first-child + * { margin-top: 0 !important }
+
+.sidebar .widget:first-child { margin-top: 0 !important }
+
+.sidebar .widget.widget_categories ul li a { background-image: url(../images/categories-icon-lite.png) }
+
+.sidebar .widget.widget_recent_entries ul li { background-image: url(../images/recent-posts-sidebar.png) }
+
+.sidebar .widget.widget_recent_comments ul li { background-image: url(../images/recent-comments-sidebar.png) }
+

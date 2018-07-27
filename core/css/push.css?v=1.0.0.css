@@ -1,0 +1,178 @@
+
+/* 
+  Push Divs
+  Copyright (c) 2012 Ernesto Mendez
+ */
+ 
+p + .push { margin-top: -1.3em; }
+
+div.push-10 {
+  clear: both;
+  padding-bottom: 10px;
+}
+
+div.push-10.separator { padding-top: 10px }
+
+div.pull-10 { margin-bottom: -10px }
+
+div.push-15 {
+  clear: both;
+  padding-bottom: 15px;
+}
+
+div.push-15.separator { padding-top: 15px }
+
+div.pull-15 { margin-bottom: -15px }
+
+div.push-20 {
+  clear: both;
+  padding-bottom: 20px;
+}
+
+div.push-20.separator { padding-top: 20px }
+
+div.pull-20 { margin-bottom: -20px }
+
+div.push-25 {
+  clear: both;
+  padding-bottom: 25px;
+}
+
+div.push-25.separator { padding-top: 25px }
+
+div.pull-25 { margin-bottom: -25px }
+
+div.push-30 {
+  clear: both;
+  padding-bottom: 30px;
+}
+
+div.push-30.separator { padding-top: 30px }
+
+div.pull-30 { margin-bottom: -30px }
+
+div.push-35 {
+  clear: both;
+  padding-bottom: 35px;
+}
+
+div.push-35.separator { padding-top: 35px }
+
+div.pull-35 { margin-bottom: -35px }
+
+div.push-40 {
+  clear: both;
+  padding-bottom: 40px;
+}
+
+div.push-40.separator { padding-top: 40px }
+
+div.pull-40 { margin-bottom: -40px }
+
+div.push-45 {
+  clear: both;
+  padding-bottom: 45px;
+}
+
+div.push-45.separator { padding-top: 45px }
+
+div.pull-45 { margin-bottom: -45px }
+
+div.push-50 {
+  clear: both;
+  padding-bottom: 50px;
+}
+
+div.push-50.separator { padding-top: 50px }
+
+div.pull-50 { margin-bottom: -50px }
+
+div.push-55 {
+  clear: both;
+  padding-bottom: 55px;
+}
+
+div.push-55.separator { padding-top: 55px }
+
+div.pull-55 { margin-bottom: -55px }
+
+div.push-60 {
+  clear: both;
+  padding-bottom: 60px;
+}
+
+div.push-60.separator { padding-top: 60px }
+
+div.pull-60 { margin-bottom: -60px }
+
+div.push-65 {
+  clear: both;
+  padding-bottom: 65px;
+}
+
+div.push-65.separator { padding-top: 65px }
+
+div.pull-65 { margin-bottom: -65px }
+
+div.push-70 {
+  clear: both;
+  padding-bottom: 70px;
+}
+
+div.push-70.separator { padding-top: 70px }
+
+div.pull-70 { margin-bottom: -70px }
+
+div.push-75 {
+  clear: both;
+  padding-bottom: 75px;
+}
+
+div.push-75.separator { padding-top: 75px }
+
+div.pull-75 { margin-bottom: -75px }
+
+div.push-80 {
+  clear: both;
+  padding-bottom: 80px;
+}
+
+div.push-80.separator { padding-top: 80px }
+
+div.pull-80 { margin-bottom: -80px }
+
+div.push-85 {
+  clear: both;
+  padding-bottom: 85px;
+}
+
+div.push-85.separator { padding-top: 85px }
+
+div.pull-85 { margin-bottom: -85px }
+
+div.push-90 {
+  clear: both;
+  padding-bottom: 90px;
+}
+
+div.push-90.separator { padding-top: 90px }
+
+div.pull-90 { margin-bottom: -90px }
+
+div.push-95 {
+  clear: both;
+  padding-bottom: 95px;
+}
+
+div.push-95.separator { padding-top: 95px }
+
+div.pull-95 { margin-bottom: -95px }
+
+div.push-100 {
+  clear: both;
+  padding-bottom: 100px;
+}
+
+div.push-100.separator { padding-top: 100px }
+
+div.pull-100 { margin-bottom: -100px }

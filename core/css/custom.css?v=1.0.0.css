@@ -1,0 +1,75 @@
+
+/* Custom Stylesheet */
+
+.mejs-controls .mejs-time-rail .mejs-time-loaded {
+  background-image: linear-gradient(bottom, rgb(247,74,0) 0%, rgb(245,114,0) 50%, rgb(245,143,0) 75%);
+  background-image: -o-linear-gradient(bottom, rgb(247,74,0) 0%, rgb(245,114,0) 50%, rgb(245,143,0) 75%);
+  background-image: -moz-linear-gradient(bottom, rgb(247,74,0) 0%, rgb(245,114,0) 50%, rgb(245,143,0) 75%);
+  background-image: -webkit-linear-gradient(bottom, rgb(247,74,0) 0%, rgb(245,114,0) 50%, rgb(245,143,0) 75%);
+  background-image: -ms-linear-gradient(bottom, rgb(247,74,0) 0%, rgb(245,114,0) 50%, rgb(245,143,0) 75%);
+
+  background-image: -webkit-gradient(
+  	linear,
+  	left bottom,
+  	left top,
+  	color-stop(0, rgb(247,74,0)),
+  	color-stop(0.5, rgb(245,114,0)),
+  	color-stop(0.75, rgb(245,143,0))
+  );
+}
+
+div.pp_overlay { background: black; }
+div.ppt { display: none !important; }
+div.pp_pic_holder {
+  -webkit-border-radius: 22px;
+  -moz-border-radius: 22px;
+  border-radius: 22px;
+  -webkit-box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+div.pp_content img { outline: solid 1px rgba(255,255,255,0.1); }
+p.pp_description { font-weight: normal; margin-top: 2px; }
+p.pp_description a { 
+  color: #2d2d2d; font-weight: bold;
+  -webkit-transition: color 0.2s ease-in-out;
+  -moz-transition: color 0.2s ease-in-out;
+  -o-transition: color 0.2s ease-in-out;
+  -ms-transition: color 0.2s ease-in-out;
+  transition: color 0.2s ease-in-out;
+}
+p.pp_description a:hover { 
+  color: #f74b00;
+  text-decoration: none;
+}
+
+p.pp_description a small { font-weight: normal; }
+
+p.currentTextHolder { margin-top: 0; }
+.pp_details a.pp_close { background: url(../images/prettyPhoto/cross.png) center no-repeat; width: 20px; color: white; }
+
+.pp_hoverContainer {
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5) inset;
+  -moz-box-shadow: 0 0 10px rgba(0,0,0,0.5) inset;
+  -o-box-shadow: 0 0 10px rgba(0,0,0,0.5) inset;
+  -ms-box-shadow: 0 0 10px rgba(0,0,0,0.5) inset;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5) inset;
+}
+
+#pp_full_res {
+  position: relative;
+}
+
+.pp_content img#fullResImage {
+  display: block;
+}
+
+#pp_full_res:after {
+  position: absolute;
+  display: block;
+  content: "\020";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
